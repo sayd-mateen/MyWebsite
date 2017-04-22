@@ -1,5 +1,4 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -31,20 +30,17 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">MySite - Sayd A. Mateen</a>
+                <a class="navbar-brand page-scroll" href="#page-top">My Site - Sayd A. Mateen</a>
             </div>
 
             <%-- Collect the nav links, forms, and other content for toggling --%>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">Home</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Skills</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="Experience.html">Resume</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -62,7 +58,7 @@
                 <h1 id="homeHeading">Welcome!</h1>
                 <hr>
                 <p>My name is Sayd, a developer from California.</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Learn About My Experiences</a>
+                <a href="Experience.html" class="btn btn-primary btn-xl page-scroll">Learn About My Experiences</a>
             </div>
         </div>
     </header>
@@ -93,132 +89,35 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
+                        <i class="fa fa-4x fa-coffee text-primary sr-icons"></i>
                         <h3>Java</h3>
                         <p class="text-muted">I have develope this web site using Java EE Spring MVC Archiecture.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
+                        <i class="fa fa-4x fa-hashtag text-primary sr-icons"></i>
                         <h3>C#</h3>
                         <p class="text-muted">I work part time as a Software Engineer at a startup developing with C# and the .NET</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+                        <i class="fa fa-4x fa-graduation-cap text-primary sr-icons"></i>
                         <h3>Degree</h3>
                         <p class="text-muted">I've obtained a Degree in Computer Science graduating with Honors.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
+                        <i class="fa fa-4x fa-cog text-primary sr-icons"></i>
+                        <h3>Ambition</h3>
+                        <p class="text-muted">Pursing a carreer in Machine Learning.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="bootstrap/img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="bootstrap/img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">    
-	                    <div class="portfolio-box-caption">
-	                        <div class="portfolio-box-caption-content">
-	                            <div class="project-category text-faded">
-	                                Category
-	                            </div>
-	                            <div class="project-name">
-	                                Project Name
-	                            </div>
-	                        </div>
-	                    </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="bootstrap/img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="bootstrap/img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-	                    <div class="portfolio-box-caption">
-	                        <div class="portfolio-box-caption-content">
-	                            <div class="project-category text-faded">
-	                                Category
-	                            </div>
-	                            <div class="project-name">
-	                                Project Name
-	                            </div>
-	                        </div>
-	                    </div>
-					</a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="bootstrap/img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                        <img src="bootstrap/img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">    
-			            <div class="portfolio-box-caption">
-			                <div class="portfolio-box-caption-content">
-			                    <div class="project-category text-faded">
-			                        Category
-			                    </div>
-			                    <div class="project-name">
-			                        Project Name
-			                    </div>
-			                </div>
-			            </div>
-			        </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="bootstrap/img/portfolio/fullsize/4.jpg" class="portfolio-box">
-                        <img src="bootstrap/img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
-	                    <div class="portfolio-box-caption">
-	                        <div class="portfolio-box-caption-content">
-	                            <div class="project-category text-faded">
-	                                Category
-	                            </div>
-	                            <div class="project-name">
-	                                Project Name
-	                            </div>
-	                        </div>
-	                    </div>
-					</a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="bootstrap/img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="bootstrap/img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-	                    <div class="portfolio-box-caption">
-	                        <div class="portfolio-box-caption-content">
-	                            <div class="project-category text-faded">
-	                                Category
-	                            </div>
-	                            <div class="project-name">
-	                                Project Name
-	                            </div>
-	                        </div>
-	                    </div>
-	                </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="bootstrap/img/portfolio/fullsize/6.jpg" class="portfolio-box">
-                        <img src="bootstrap/img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
-	                    <div class="portfolio-box-caption">
-	                        <div class="portfolio-box-caption-content">
-	                            <div class="project-category text-faded">
-	                                Category
-	                            </div>
-	                            <div class="project-name">
-	                                Project Name
-	                            </div>
-	                        </div>
-	                    </div>
-	                </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
@@ -227,7 +126,6 @@
             </div>
         </div>
     </aside>
-
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -242,7 +140,7 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">smateen916@gmail.com</a></p>
+                    <p><a href="mailto:smateen916@gmail.com">smateen916@gmail.com</a></p>
                 </div>
             </div>
         </div>
@@ -261,7 +159,5 @@
     <script src="bootstrap/js/creative.min.js"></script>
 
     <%-- Theme JavaScript --%>
-
 </body>
-
 </html>
