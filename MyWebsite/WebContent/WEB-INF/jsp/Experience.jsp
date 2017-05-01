@@ -18,7 +18,7 @@
 <%-- Theme CSS --%>
 <link href="bootstrap/css/creative.min.css" rel="stylesheet">
 
-<title>My Experience</title>
+<title>My Website - Sayd A. Mateen</title>
 </head>
 
 <body id="page-top">
@@ -37,7 +37,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="Home.html">Home</a>
+                        <a class="page-scroll" href="#about">Home</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="Experience.html">Resume</a>
@@ -63,6 +63,88 @@
         </div>
     </header>
 
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">About Me</h2>
+                    <hr class="light">
+                    <p class="text-faded">I recently graduated from Sacramento State University with a degree in Computer Science. I love hiking, reading, and coding.</p>
+                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">What I Do</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">My Skills</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-coffee text-primary sr-icons"></i>
+                        <h3>Java</h3>
+                        <p class="text-muted">I have develope this web site using Java EE Spring MVC Archiecture.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-hashtag text-primary sr-icons"></i>
+                        <h3>C#</h3>
+                        <p class="text-muted">I work part time as a Software Engineer at a startup developing with C# and the .NET</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-graduation-cap text-primary sr-icons"></i>
+                        <h3>Degree</h3>
+                        <p class="text-muted">I've obtained a Degree in Computer Science graduating with Honors.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-cog text-primary sr-icons"></i>
+                        <h3>Ambition</h3>
+                        <p class="text-muted">Pursing a carreer in Machine Learning.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Check out my GitHub.</h2>
+                <a href="https://github.com/sayd-mateen" class="btn btn-default btn-xl sr-button">Go</a>
+            </div>
+        </div>
+    </aside>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Have any questions? Feel free to contact me.</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
+                    <p>916-479-5933</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="mailto:smateen916@gmail.com">smateen916@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <%-- jQuery --%>
     <script src="bootstrap/jquery/jquery.min.js"></script>
